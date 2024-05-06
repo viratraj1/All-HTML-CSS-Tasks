@@ -1,0 +1,900 @@
+@media only screen and (min-width:0px) and (max-width:600px)
+        {
+            .header
+        {
+            width: 100%;
+            height: 360px;
+            background-image: url('./header-bg.png');
+            background-size: 100% 360px;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            
+           
+        }
+        .eduwell
+        {
+            position: relative;
+            left: 10px;
+            
+        }
+         .details
+        {
+            width: 150px;
+            height: 300px;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+           font-size: 25px;
+          align-items: center;
+          margin-left: 30%;
+          
+          
+        }
+        .details a 
+        {
+            color: white;
+        }
+        .design
+        {
+            
+            width: 100%;
+            height: 770px;
+            background-image: url(./banner-right-dec.png);
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 70%;    
+        }
+        .learngraphic
+        {
+            width: 100%;
+            height: 400px;
+            margin-left: 58%;
+        }
+        span 
+        {
+            color: purple;
+        }
+        .learngraphic h1
+        {
+            font-size: 60px;
+            text-align: center;
+        }
+        .learngraphic p 
+        {
+            font-size: 20px;
+            text-align: center;
+        }
+        .input
+        {
+           
+            background-image: linear-gradient(130deg, orange, purple);
+            padding: 8px;
+            margin-left: 42%;
+        }
+        .services 
+        {
+            width: 100%;
+            text-align: center;
+            margin-top: 50px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .servicesavailable
+        {
+            width: 100%;
+            height: 950px;
+            background-image: url(./banner-left-dec.png);
+            background-repeat: no-repeat;
+            background-size: 150px 400px;
+            margin-top: 50px;
+            
+            
+        }
+        .allservices
+        {
+            width: 50%;
+            height: 1000px;
+            margin-left: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+             
+        }
+        .target 
+        {
+            width: 85%;
+            height: 230px;
+            text-align: center;
+            line-height: 23px;
+            font-size: 18px;  
+        } 
+        .courses 
+        {
+            width: 100%;
+            height: 300px;
+            background-image: url(./our-courses-left-dec.png),url(./our-courses-right-dec.png);
+            background-repeat: no-repeat;
+            background-size: 200px 200px,200px 200px;
+            background-position: left top,right top; 
+            display: flex;
+            justify-content: center; 
+            margin-top: 100px;
+           
+            
+           
+        }
+        .ourcourses 
+        {
+            width: 80%;
+            height: 200px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 55px;
+            
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+            
+        }
+
+        .listofcourse
+        {
+            width: 100%;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 20px;
+           
+           
+           
+        }
+        .inputboxes 
+        {
+           
+            width: 83%;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20%; 
+            
+            
+           
+          
+           
+        }
+        .inputboxes h2
+        {
+            border: 3px solid purple;
+            width: 460px;
+            text-align: center;
+            padding: 14px;
+            border-radius: 10px;
+            color: rgb(241, 116, 241);
+           
+        }
+       .course
+        {
+            border: 3px solid purple;
+            width: 250px;
+            text-align: center;
+            padding: 14px;
+            border-radius: 10px;
+            color:black !important; 
+           
+        }
+        .webdevelopment
+        {
+            width: 90%;
+            height: 810px;
+            display: flex;
+           flex-direction: column;
+           align-items: center;
+           background-color: white; 
+           box-shadow: 5px 5px 5px 5px rgb(233, 220, 220);
+           border-radius: 20px;
+           margin-left: 30px;  
+         
+          
+           
+        }
+        .webdevelopmentimage
+        {
+            position: relative;
+          
+        }
+        .imgsub
+        {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            background-color: rgb(244, 133, 244);
+            color: white;
+            width: 50px;
+            height: 20px;
+            text-align: center;
+            border-radius: 10px;
+
+           
+           
+        }
+        .webimage
+        {
+            width: 500px;
+            border-radius: 20px;
+            
+            
+        }
+        .webdevelopmentmatter 
+        { 
+            width: 500px;
+            height: 320px; 
+            font-size: 17px;
+            margin-left: 100px; 
+           
+           
+        }
+        .duriation
+        {
+            width: 300px;
+            display: flex;
+            justify-content: space-between;  
+           
+        }
+        .dur 
+        {
+            border-right: 3px solid black;
+            padding-right: 20px;
+        }
+        a
+        {
+            color: purple;   
+        }
+
+        
+        .viewcourse
+        {
+            background-image: url(./cta-bg.png);
+            width: 100%;
+            height: 736px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 800px;
+            position: relative;
+           
+        }
+        .ci 
+        {
+            width: 500px;
+            height: 330px;
+            margin-top: 40px; 
+            position: absolute;
+            left: 30px;
+            top: 0px;
+           
+        }
+        .courseoffer
+        {
+            width: 420px;
+            height: 370px;
+            position: absolute;
+            left: 30px;
+            top: 370px;
+              
+        }
+        .courseoffer p
+        {
+            color: white;
+            font-size: 16px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .courseoffer>h1
+        {
+           font-size: 40px;
+           color: white;
+        }
+        .courseoffer>h3
+        {
+            text-align: center;
+            padding: 8px;
+            background-color: white;
+            width: 130px;
+            color: rgb(243, 171, 243);
+            border-radius: 5px;
+           
+        }
+
+        .testimonials
+        {
+            width: 100%;
+            height: 900px;
+            background-image: url(./testimonials-left-dec.png),url(./testimonials-right-dec.png);
+            background-repeat: no-repeat;
+            background-position: left top,right bottom;
+            background-size: 400px 300px,400px 300px;
+           
+            
+        }
+        .heaingintestimonials
+        {
+            width: 200px;
+            height: 100px;
+            text-align: center;
+            position: relative;
+            left: 200px;
+            top: 170px;  
+           
+           
+            
+        }
+        .contentintestimonials
+        {
+            
+            width: 45%;
+            height: 470px; 
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 180px;    
+           
+        }
+        .andrew
+        {
+            width: 300px;
+            height: 50px;
+            
+            
+           
+        }
+        .andrewhall
+        {
+            width: 300px;
+            height: 80px;
+           
+            display: flex;
+            justify-content: space-between;
+            
+            
+        }
+        #andrewimg
+        {
+           display: flex;
+           align-items: center;
+           
+           
+        }
+        .testimonialscontent1
+        {
+            width: 300px;
+            height: 140px;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+        }
+
+        .contact
+        {
+            background-image: url(./footer-bg.png);
+            background-position: bottom ;
+            background-repeat: no-repeat;
+            width: 100%;
+           height: 1000px;
+            position: relative;
+            margin-top: 40px; 
+            
+            
+           
+        }
+        iframe
+        {
+            width: 83%;
+            height: 300px;
+            border-radius: 20px;
+            position: absolute;
+            top: 0px;
+            left: 50px;
+        }
+        .contactus
+        {
+            width: 480px;
+            height: 500px;
+            background-color: white;
+            border-radius: 15px;
+            margin-left: 50px;
+            box-shadow: 5px 5px 5px 5px rgb(211, 196, 196);
+            margin-top: 350px;
+            position: absolute;
+           right: 40px;
+           
+        }
+        .dataincontact
+        {
+            width: 400px;
+            height: 400px;
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;   
+        }
+        .continput
+        {
+            width: 376px;
+            background-color: lightgray;
+            padding: 10px;
+            border-radius: 10px;   
+        }
+        textarea
+        {
+            width: 394px;
+            height: 100px;
+            background-color: lightgray;
+            border-radius: 10px;
+        }
+        form
+        {
+            display: flex;
+            flex-direction: column;
+        }
+        .contsub
+        {
+            width: 150px;
+            padding: 5px;
+            border-radius: 10px;
+            background-image: linear-gradient(130deg, rgb(249, 197, 101), rgb(236, 118, 236));
+        }
+        .icons
+        {
+            width: 100%;
+            height: 100px;
+            position: absolute;
+            bottom: 12px;
+            text-align: center;
+            color: white;
+        }
+        i 
+        {
+            padding-right: 20px;
+            font-size: 20px;
+        }
+         
+        
+       
+        }
+
+
+
+
+        
+        @media only screen and (min-width:601px) and (max-width:1175px)
+        {
+            .header
+        {
+            width: 100%;
+            height: 100px;
+            background-image: url('./header-bg.png');
+            background-size: 100% 100px;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            top: 0px;
+            left: 0px;  
+           
+
+        }
+        .eduwell
+        {
+            position: relative;
+            left: 100px;
+        }
+        .details
+        {
+            position: relative;
+            right: 80px;
+            word-spacing: 50px;
+            color: white;
+            font-size: 20px;
+        }
+        .design
+        {
+            width: 98%;
+            height: 400px;
+            background-image: url(./banner-right-dec.png);
+            background-repeat: no-repeat;
+            background-position: right top;
+            background-size: 300px 300px;
+            margin-top: 180px;
+            display: flex;
+            justify-content: space-around; 
+           
+             
+        }
+        .learngraphic
+        {
+            width: 300px;
+            height: 300px;
+            margin-right: 340px;  
+            
+        }
+        span 
+        {
+            color: purple;
+        }
+        .learngraphic h1
+        {
+            font-size: 45px;
+        }
+        .input
+        {
+            background-image: linear-gradient(130deg, orange, purple);
+        }
+        .services 
+        {
+            width: 100%;
+            text-align: center;
+            margin-top: 100px;
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+        .servicesavailable
+        {
+            width: 100%;
+            height: 450px;
+            background-image: url(./banner-left-dec.png);
+            background-repeat: no-repeat;
+            margin-top: 50px; 
+           
+           
+        }
+        .allservices
+        {
+            width: 78%;
+            height: 410px;
+            margin-left: 240px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        .target 
+        {
+            width: 240px;
+            height: 230px;
+            text-align: center;
+            line-height: 23px;
+            margin-top: 15px;
+        }
+        .courses 
+        {
+            width: 100%;
+            height: 300px;
+            background-image: url(./our-courses-left-dec.png),url(./our-courses-right-dec.png);
+            background-repeat: no-repeat;
+            background-size: 200px 200px,200px 200px;
+            background-position: left top,right top;
+            padding-top: 100px; 
+            display: flex;
+            justify-content: center;  
+        }
+        .ourcourses 
+        {
+            width: 500px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 25px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           
+            margin-left: 20px;
+        }
+        .listofcourse
+        {
+            width: 100%;
+            height: 370px;
+           
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .inputboxes 
+        {
+            width: 400px;
+            height: 350px;
+           
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            margin-left: 50px;   
+        }
+        .inputboxes h2
+       {
+            border: 3px solid purple;
+            width: 250px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 8px;
+            color: rgb(241, 116, 241);
+       }
+       .course
+        {
+            border: 3px solid purple;
+            width: 250px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 8px;
+            color:black !important;  
+        }
+        .webdevelopment
+        {
+            width: 800px;
+            height: 340px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 12px;
+            margin-left: 40px;
+            background-color: white;
+            box-shadow: 5px 5px 5px 5px rgb(207, 189, 189);
+            border-radius: 20px;
+        }
+        
+        .webdevelopmentimage
+        {
+            margin-left: 10px;
+            margin-top: 10px;
+            border-left: 20px !important;
+            position: relative;
+        }
+        .imgsub
+        {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            background-color: rgb(244, 133, 244);
+            color: white;
+            width: 50px;
+            height: 20px;
+            text-align: center;
+
+        }
+        .webdevelopmentmatter 
+        {
+            width: 400px;
+            height: 320px;
+            margin-left: 20px;
+           
+            margin-top: 20px !important;
+           
+
+        }
+        .duriation
+        {
+            width: 300px;
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        .dur 
+        {
+            border-right: 3px solid black;
+            padding-right: 20px;
+        }
+        a
+        {
+            color: purple;   
+        }
+        .viewcourse
+        {
+            background-image: url(./cta-bg.png);
+            width: 100%;
+            height: 730px;
+            margin-top: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        .courseoffer
+        {
+           
+            width: 420px;
+            height: 370px;
+            margin-left: 100px;  
+            margin-bottom: 60px;
+            
+        }
+        .courseoffer>h3
+        {
+            text-align: center;
+            padding: 8px;
+            background-color: white;
+            width: 130px;
+            color: rgb(243, 171, 243);
+            border-radius: 5px;
+           
+        }
+        .courseoffer p
+        {
+            color: white;
+            font-size: 20px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .courseoffer>h1
+        {
+           font-size: 40px;
+        }
+        .courseimage
+        {
+            margin-left: 150px;
+
+        }
+
+        .testimonials
+        {
+            width: 100%;
+            height: 650px;
+        
+            background-image: url(./testimonials-left-dec.png),url(./testimonials-right-dec.png);
+            background-repeat: no-repeat;
+            background-position: left top,right bottom;
+            background-size: 500px 300px,500px 300px;
+        }
+        .heaingintestimonials
+        {
+            width: 200px;
+            height: 100px;
+           
+            text-align: center;
+            position: relative;
+            left: 43%;
+            top: 150px;  
+           
+        }
+        .contentintestimonials
+        {
+            width: 85%;
+            height: 550px;
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 100px;
+           
+           
+        }
+        .andrew
+        {
+            width: 300px;
+            height: 50px;
+           
+        }
+        .andrewhall
+        {
+            width: 300px;
+            height: 80px;
+           
+            display: flex;
+            justify-content: space-between;
+        }
+        #andrewimg
+        {
+           display: flex;
+           align-items: center;
+        }
+        .testimonialscontent1
+        {
+            width: 300px;
+            height: 140px;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+        }
+
+        .contact
+        {
+            background-image: url(./footer-bg.png);
+            width: 100%;
+            height: 690px;
+            position: relative;
+            margin-top: 40px;
+           
+        }
+        .contactincontact
+        {
+            width: 95%;
+            height: 550px;
+            
+            display: flex;
+            justify-content: space-between;
+            
+           
+        }
+        iframe
+        {
+            border-radius: 15px;
+            width: 350px;
+            height: 350px;
+        }
+        .contactus
+        {
+            width: 480px;
+            height: 500px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 5px 5px 5px 5px rgb(108, 101, 101);
+        }
+        .dataincontact
+        {
+            width: 400px;
+            height: 400px;
+           
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .continput
+        {
+            width: 376px;
+            background-color: lightgray;
+            padding: 10px;
+            border-radius: 10px;   
+        }
+        textarea
+        {
+            width: 394px;
+            height: 100px;
+            background-color: lightgray;
+            border-radius: 10px;
+        }
+        form
+        {
+            display: flex;
+            flex-direction: column;
+        }
+        .contsub
+        {
+            width: 150px;
+            padding: 5px;
+            border-radius: 10px;
+            background-image: linear-gradient(130deg, rgb(249, 197, 101), rgb(236, 118, 236));
+        }
+        
+        .icons
+        {
+            width: 100%;
+            height: 100px;
+            position: absolute;
+            bottom: 10px;
+            text-align: center;
+            color: white;
+        }
+        i 
+        {
+            padding-right: 20px;
+            font-size: 20px;
+        }
+
+        }

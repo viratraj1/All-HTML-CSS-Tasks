@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid task</title>
+
+   
+
+<style>
+    body{
+        background-color: black;
+    }
+
+#parent{
+
+    height: 400px;
+    width: 700px;
+    background-color: blue;
+    display: grid;
+    grid-template-rows:auto auto auto ;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+   text-align: center;
+   font-size: 40px;
+   box-shadow: 0px 0px 30px aqua;
+  margin: 100px;
+  
+        
+    }
+    #parent div{
+        /* height: 80px;
+        width: 80px; */
+        background-color: aqua;
+        box-shadow: 5px 5px 10px gold;
+       
+        
+
+    }
+
+
+</style>
+</head>
+<body>
+
+    <div id="parent">
+        <div style="grid-column: 1/4;">Header</div>
+        <div style="grid-row: 2/4;">Menu</div>
+        <div>Main</div>
+        <div>Right</div>
+        <div style="grid-column: 2/4;">Footer</div>
+
+    </div>
+</body>
+</html>
